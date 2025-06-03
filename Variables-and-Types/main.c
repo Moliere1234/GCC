@@ -7,7 +7,7 @@ int main() {
   float sum;
 
   /* Your code goes here */
-
+sum = a + b + c;
   printf("The sum of a, b, and c is %f.", sum);
   return 0;
 }
