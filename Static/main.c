@@ -1,8 +1,8 @@
-   #include <stdio.h>
+  #include <stdio.h>
    int sum (int num) {
-       /**
-       * find sum to n numbers
-       */
+      static int total = 0;
+       total += num;
+       return total;
    }
 
    int main() {
