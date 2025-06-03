@@ -5,7 +5,14 @@ int main() {
     int i = 0;
 
     while (i < 10) {
-        /* your code goes here */
+        if(array[i] < 5){
+            i++;
+            continue;
+        }
+
+        if(array[i] > 10){
+            break;
+        }
 
         printf("%d\n", array[i]);
         i++;
